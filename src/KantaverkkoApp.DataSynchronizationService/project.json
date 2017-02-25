@@ -1,0 +1,35 @@
+{
+  "version": "1.0.0-*",
+  "buildOptions": {
+    "emitEntryPoint": true,
+    "copyToOutput": {
+      "includeFiles": [
+        "appsettings.json"
+      ]
+    }
+  },
+
+  "dependencies": {
+    "KantaverkkoApp.FingridApiClient": "1.0.0-*",
+    "KantaverkkoApp.Repositories": "1.0.0-*",
+    "Microsoft.Extensions.Configuration": "1.1.0",
+    "Microsoft.Extensions.Configuration.EnvironmentVariables": "1.1.0",
+    "Microsoft.Extensions.Configuration.Json": "1.1.0",
+    "Microsoft.NETCore.App": {
+      "type": "platform",
+      "version": "1.0.1"
+    }
+  },
+
+  "frameworks": {
+    "netcoreapp1.0": {
+      "imports": "dnxcore50"
+    }
+  },
+
+  "publishOptions": {
+    "include": [
+      "appsettings.json"
+    ]
+  }
+}

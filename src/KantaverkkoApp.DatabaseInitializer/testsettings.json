@@ -1,0 +1,13 @@
+﻿{
+  "Logging": {
+    "IncludeScopes": false,
+    "LogLevel": {
+      "Default": "Debug",
+      "System": "Information",
+      "Microsoft": "Information"
+    }
+  },
+  "ConnectionStrings": {
+    "postgres": "Host=localhost;Database=kantaverkkoapp_tests;Username=postgres;Password=postgres"
+  }
+}
